@@ -1,0 +1,6 @@
+[Unit]
+Description=Replication Heartbeat Check service
+
+[Service]
+ExecStart=-/usr/bin/pt-repl-check
+StandardInput=socket
